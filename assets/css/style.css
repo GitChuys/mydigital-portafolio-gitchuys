@@ -1,0 +1,534 @@
+@import url(https://fonts.googleapis.com/css?family=Lato);
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Lato", serif;
+}
+
+header{
+    background: #2F3A59 ;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+
+/* Nav */
+.todonav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.nav-ima{
+    margin-top: .8rem;
+    margin: auto;
+}
+
+.imagenes{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+
+.navuno{
+    display: flex;
+    flex-direction: row;
+    width: 3.5rem;
+    padding-left: 1rem;
+}
+
+.nav-tex{
+    display: flex;
+    padding: 1rem;
+    margin: auto;
+}
+
+.textuno{
+    padding: .5rem;
+    text-decoration: none;
+}
+
+.textuno:hover{
+    background-color: #738CBF;
+}
+a:link {
+    text-decoration: none;
+    color: white;
+  }
+a:visited {
+    text-decoration: none;
+    color: white;
+}
+
+.textos{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    letter-spacing: 0.3rem;
+    text-decoration: none;
+}
+
+/*PORTADA - COVER*/
+section{
+    display: flex;
+    background:url(/assets/images/photo-1617042375876-a13e36732a04.jpeg);
+    background-position: 70%;
+    background-size: 100%;
+    height: 65%;
+    position: relative;
+    z-index: -10;
+    background-repeat: no-repeat;
+}
+.textoo-fondo {
+    color: #fff;
+    font-family: "Lato", serif;
+    text-align: right;
+    text-transform: uppercase;
+    margin-top: 8%;
+    letter-spacing: 0.4rem;
+    padding-left: 50rem ;
+}
+
+.textoo-fondo h1 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.textoo-fondo h3 {
+    font-size: 2rem;
+    margin: 5% 0;
+    color: white;
+    font-weight: bold;
+}
+
+main{
+    height: 100%;
+    background: #8593A6;
+}
+/* Foto de sobre mi */
+
+.saludo{
+    display: flex;
+    justify-content: center;
+    padding-top: 6rem;
+    bottom: -1rem;
+    font-size: xx-large;
+    color: white;
+}
+/*BANNER*/
+
+.container__banner{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.banner{
+    display: flex;
+    flex-direction: row;
+    border-radius: 10px;
+}
+
+
+#icon_heart{
+    width: 350px;
+    margin-top: 80px;
+    position: relative;
+    filter: drop-shadow(-40px 0px 30px rgba(0,0,0,0.5));
+    padding: 3rem;
+    border-radius: 10px;
+}
+
+.letrero{
+    padding: 1rem;
+    color: white;
+    width: 82.5rem;
+    height: 23.5rem;
+    background-color: #2F3A59;
+    margin: auto;
+    border-radius: 10px 100px / 130px;
+}
+
+.readme{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-size: x-large;
+    transition: 2s;
+    letter-spacing: 0.1rem;
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+/* Works */
+.works{
+   margin-top: 9rem;
+   text-align: center;
+   color: white;
+}
+
+.working{
+    font-size: xx-large;
+}
+
+.worksli{
+    display: flex;
+    list-style: none;
+    padding: 3rem;
+    justify-content: space-around;
+}
+.hov{
+    z-index: 1000;
+}
+#hov{
+    transition: 1s;
+    cursor: pointer;
+}
+#hov2{
+    transition: 1s;
+    cursor: pointer;
+}
+#hov3{
+    transition: 1s;
+    cursor: pointer;
+}
+#hov4{
+    transition: 1s;
+    cursor: pointer;
+}
+#hov5{
+    transition: 1s;
+    cursor: pointer;
+}
+
+
+#cerrar{
+    transition: 2s;
+    cursor: pointer;
+}
+
+
+.uno{
+    width: 30rem;
+    height: 17rem;
+    
+}
+
+/* SKILLS */
+
+.skillsletrero{
+    display: flex;
+    justify-content: center;
+    padding-top: 5rem;
+    padding-bottom: 3rem;
+    font-size: xx-large;
+    color: white;
+}
+
+.skills{
+
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.skillsfila{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: auto;
+    padding: 1rem;
+}
+
+
+.skills1{
+    width: 13rem;
+    padding-left: 5rem;
+    padding-bottom: 1rem;
+    transition: 1s;
+    
+}
+
+.skills1:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+
+.skills11{
+    width: 10rem;
+    padding-bottom: 1rem;
+    border-radius: 10px;
+    transition: 1s;
+}
+
+.skills11:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+.skills3{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.skillsfila2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: auto;
+    padding: 1rem;
+    
+}
+
+.skills2{
+    width:13rem;
+    padding-left: 5rem;
+    transition: 1s;
+}
+
+.skills2:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+.skills22{
+    width: 10rem;
+    padding-bottom: 4rem;
+    border-radius: 10px;
+    transition: 1s;
+    padding-top: 2rem;
+}
+
+.skills22:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+.educacion{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-bottom: 2rem;
+}
+
+.edu{
+    display: flex;
+    width: 35rem;
+    filter: drop-shadow(-10px 0px 30px rgba(0,0,0,0.5));
+    transition: 1s;
+}
+.edu:hover{
+    transform: scale(1.1);
+    cursor: nesw-resize;
+}
+
+#edu1{
+    display: flex;
+    padding: 2rem;
+}
+
+.textoEdu{
+    background: #D6EAF8;
+}
+
+.letrasEducacion{
+    display: flex;
+    justify-content: center;
+    letter-spacing: .2rem;
+    font-size: 2rem;
+    color: #34495E ;
+}
+
+footer{
+    display: flex;
+    width: 100%;
+    height: 25rem;
+    background-position: 50%;
+    background-image: url(/assets/images/photo-1617042375876-a13e36732a04.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.contacprin{
+    display: flex;
+    letter-spacing: .3rem;
+    padding-top: -1rem;
+    font-size: 3rem;
+    margin: auto;
+}
+
+.contac1{
+    color: white;
+}
+
+.todoFoot{
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+}
+
+.letraFoot{
+    display: flex;
+    color: white;
+    font-size: 2rem;
+    padding-right: 5rem;
+    padding-bottom: 3rem;
+
+}
+
+.boton{
+    background-color: transparent;
+    border: none;
+    color: white;
+    border: solid white;
+    justify-content: center;
+}
+
+.btn-interno{
+    padding: 1rem;
+    font-size: large;
+}
+
+.boton:hover{
+    background-color: #B7950B;
+    cursor: pointer;
+}
+.iconosFot{
+    flex-direction: column;
+    display: flex;
+    color: white;
+}
+
+.email{
+    display: flex;
+    flex-direction: row;
+}
+
+.telefono{
+    display: flex;
+    flex-direction: row;
+    padding-top: 2rem;
+}
+
+.material-symbols-outlined{
+    padding-right: 2rem;
+    font-size: 2rem;
+}
+
+.fotle{
+    font-size: 1.5rem;
+}
+
+.copi{
+    color: white;
+    display: flex;
+    flex-direction: row-reverse;
+    padding-bottom:.5rem;
+    padding-right: 1rem;
+    font-weight: 400;
+    font-size: .8rem;
+}
+
+/* Media Query */
+
+@media screen and (min-width: 300px){
+    .worksli{
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (min-width: 300px){
+    .educacion{
+        flex-wrap: wrap;
+    }
+}
+@media screen and (min-width: 300px){
+    .skillsfila{
+        flex-wrap: wrap;
+    }
+    .skillsfila2{
+        flex-wrap: wrap;
+    }
+    .skills11{
+        flex-wrap: wrap;
+        margin: auto;
+    }
+    .skills22{
+        flex-wrap: wrap;
+        margin: auto;
+    }
+}
+
+@media screen and (max-width: 800px){
+    .edu{
+        width: 20rem;
+    }
+    .uno{
+        width: 20rem;
+        height: 10rem;
+    }
+    .letrasEducacion{
+        font-size: 1rem;
+        text-align: center;
+    }
+    .contacprin{
+        font-size: 2rem;
+    }
+    .letraFoot{
+        font-size: 1.5rem;
+        text-align: center;
+    }
+    .todoFoot{
+        flex-direction: column;
+        text-align: center;
+    }
+    .copi{
+        font-size: .5rem;
+    }
+    .contacprin{
+        margin-bottom: 1rem;
+    }
+    .letrero{
+        width: 22rem;
+        height: 45rem;
+        background-color: #2F3A59;
+        margin: auto;
+        border-radius: 10px 100px / 130px;
+    }
+    .readme{
+        font-size: large;
+    }
+    .imagenes{
+        display: none;
+    }
+    .textoo-fondo{
+        padding-left: 0rem;
+    }
+    .textoo-fondo h1{
+        font-size: 1.4rem;
+    }
+    .textoo-fondo h3{
+        font-size: 1rem;
+        margin: 0;
+    }
+    .textos{
+        font-size: .6rem;
+        font-weight: bold;
+        letter-spacing: 0.1rem;
+        text-align: center;
+        
+    }
+    .textuno{
+        padding: .3rem;
+    }
+    .skillsletrero{
+        font-size: x-large;
+    }
+
+}
